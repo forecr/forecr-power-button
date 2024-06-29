@@ -35,5 +35,7 @@ cp power /etc/acpi/events/power
 
 systemctl restart acpid.service
 
-echo "Done."
+echo "Done. Rebooting now..."
+sleep 10
+reboot
 
